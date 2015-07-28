@@ -1,0 +1,114 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/fondo">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iconImageView"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/icon_verde"
+        android:src="@drawable/icon_cancha"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PICHANGA"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/bright_foreground_material_dark"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ya eres usuario"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textColor="@color/bright_foreground_material_dark"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/usuarioEditText"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/txtbox_gris"
+        android:text="Usuarios"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:maxLength="15"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/claveEditText"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/txtbox_gris"
+        android:text="Contraseña"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        android:maxLength="15"
+        android:password="true"
+        android:textIsSelectable="false"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Iniciar Sesión"
+        android:id="@+id/iniciarButton"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/abc_search_url_text_pressed"
+        android:background="@drawable/btn_blanco"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Olvidaste tu contraseña?"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:textIsSelectable="false"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿No tienes cuenta?"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Regístrate con tu E-mail"
+        android:id="@+id/registrarButton"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_verde"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:layout_marginTop="10dp" />
+</LinearLayout>
